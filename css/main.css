@@ -1,0 +1,48 @@
+body {
+    background-color: #353831;
+    color:#DEE5E5;
+}
+h1 {
+    
+    color:#69306D;
+    margin-bottom: 0;
+}
+.subHead {
+    margin: 0;
+}
+.headBlock {
+    background-color:#6184D8;
+    display:inline-block;
+    padding: 0 5% 2% 1%;
+    width: 25%;
+    word-wrap: break-word;
+    
+
+}
+.sectionHead {
+    border-bottom: 2px solid #689684;
+}
+p {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+.bio {
+    display: block;
+    float: right;
+    width: 66%;
+    padding: 0 2% 0 1%;
+
+}
+.degree {
+    width: 32%;
+    float:left;
+}
+li {
+    width: 25%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
