@@ -12,9 +12,8 @@ h1 {
 }
 .headBlock {
     background-color:#6184D8;
-    display:inline-block;
     padding: 0 5% 2% 1%;
-    width: 25%;
+    width: 100%;
     word-wrap: break-word;
     
 
@@ -30,7 +29,6 @@ h3 {
 }
 .bio {
     display: block;
-    float: right;
     width: 66%;
     padding: 0 2% 0 1%;
 
@@ -38,6 +36,7 @@ h3 {
 .degree {
     width: 32%;
     float:left;
+    padding-bottom: 20px;
 }
 li {
     width: 25%;
@@ -45,4 +44,20 @@ li {
 ul {
     display: flex;
     flex-wrap: wrap;
+}
+span#cool {
+    font: 1.5em lucida-handwriting black;
+}
+.navBar {
+    display: block;
+    float: right;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: hotpink;
+}
+.pageTop {
+    margin-top: 0;
 }
