@@ -1,0 +1,96 @@
+body {
+    background-color: #353831;
+    color:#DEE5E5;
+}
+h1 {
+    
+    color:#69306D;
+    margin: 0;
+}
+div {
+    margin: 20px 0;
+    float: left;
+    width: -webkit-fill-available;
+}
+hr {
+    float: left;
+    width: -webkit-fill-available;
+}
+.subHead {
+    margin: 0;
+}
+.headBlock {
+    background-color:#6184D8;
+    padding: 0 5% 2% 1%;
+    width: 100%;
+    word-wrap: break-word;
+    
+
+}
+.sectionHead {
+    border-bottom: 2px solid #689684;
+    background-color: #689684;
+    margin-top: 0;
+}
+p {
+    margin: 0;
+}
+h3 {
+    margin: 10px 0 0 0;
+}
+.bio {
+    display: block;
+    width: 66%;
+    padding: 0 2% 0 1%;
+
+}
+.degree {
+    width: 33%;
+    float:left;
+    padding-bottom: 20px;
+}
+li {
+    width: 46%;
+    padding: 2%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+span#cool {
+    font: 1.5em lucida-handwriting black;
+}
+.navBar {
+    display: block;
+    float: right;
+    width:auto;
+}
+a:link {
+    color: green;
+}
+a:visited {
+    color: hotpink;
+}
+
+.edBlocks {
+    display: inline-block;
+    width: 66%;
+    float: left;
+}
+.skillBox {
+    width: 34%;
+    box-sizing: border-box;
+    float: right;
+    border-left: 2px solid #689684;
+    border-bottom: 2px solid #689684;
+}
+.certs {
+    width: 100%;
+    float: left;
+}
+.workExp {
+    float: left;
+}
+.multiBlock {
+    margin: 0;
+}
