@@ -1,16 +1,20 @@
 body {
-    background-color: #353831;
-    color:#DEE5E5;
+    background-color: #d7ceb2;
+    color:#3E2F5B;
 }
 h1 {
     
-    color:#69306D;
+    color:#261132;
     margin: 0;
 }
 div {
     margin: 20px 0;
     float: left;
-    width: -webkit-fill-available;
+    width:100%;
+    background-color: #ffffff;
+    padding: 0 0 1% 0;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
 }
 hr {
     float: left;
@@ -20,17 +24,24 @@ hr {
     margin: 0;
 }
 .headBlock {
-    background-color:#6184D8;
-    padding: 0 5% 2% 1%;
-    width: 100%;
+    background-color:#3E2F5B;
+    padding: 0 1% 2% 1%;
+    width: 98%;
     word-wrap: break-word;
-    
-
-}
-.sectionHead {
-    border-bottom: 2px solid #689684;
-    background-color: #689684;
     margin-top: 0;
+    color: #ffffff;
+}
+
+.sectionHead {
+    border-bottom: 2px solid #93A8AC;
+    background-color: #93A8AC;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: .5% 1%
+}
+.headBlock h1 {
+    color: #D7CEB2;
 }
 p {
     margin: 0;
@@ -41,19 +52,20 @@ h3 {
 .bio {
     display: block;
     width: 66%;
-    padding: 0 2% 0 1%;
+    padding: 0 2% 0 0;
 
 }
 .degree {
-    width: 33%;
+    width: 31%;
     float:left;
     padding-bottom: 20px;
+    box-shadow: 0 0;
 }
-li {
+.skillList li {
     width: 46%;
     padding: 2%;
 }
-ul {
+.skillList {
     display: flex;
     flex-wrap: wrap;
 }
@@ -76,13 +88,17 @@ a:visited {
     display: inline-block;
     width: 66%;
     float: left;
+    margin: 0;
+    box-shadow: 0px 0px;
 }
 .skillBox {
     width: 34%;
     box-sizing: border-box;
     float: right;
-    border-left: 2px solid #689684;
-    border-bottom: 2px solid #689684;
+    border-left: 2px solid #93A8AC;
+    border-bottom: 2px solid #93A8AC;
+    margin: 0;
+    box-shadow: 0 0;
 }
 .certs {
     width: 100%;
@@ -93,4 +109,28 @@ a:visited {
 }
 .multiBlock {
     margin: 0;
+    padding: 0;
+}
+.edBlocks .sectionHead {
+    border-top-right-radius: 0%;
+}
+.skillBox .sectionHead {
+    border-top-left-radius: 0%;
+}
+.project {
+    text-align: center;
+    width: 25%;
+}
+.picOfMe {
+    float: right;
+    clear: right;
+}
+.myTitle {
+    color: #93A8AC;  
+}
+.closeBtn {
+    float: right;
+    font-size: 4em;
+    text-decoration: none;
+    color: #000000;
 }
